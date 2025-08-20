@@ -54,7 +54,7 @@ function applyFilters() {
         code.includes(input)
       );
     });
-    dropdown.value = ""; // Reset select
+    dropdown.value = ""; 
   }
   renderAll(filtered);
 }
