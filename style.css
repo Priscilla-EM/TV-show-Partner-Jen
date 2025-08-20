@@ -1,0 +1,31 @@
+#root {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  padding: 1rem;
+}
+.episode-card {
+  flex: 1 1 300px;
+  max-width: 300px;
+  box-sizing: border-box;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  overflow: hidden;
+  background: #fff;
+}
+.episode-card img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+.episode-header {
+  padding: 0.5rem;
+  background: #0077CC;
+  color: white;
+  font-weight: bold;
+  font-size: 1rem;
+}
+.episode-summary {
+  padding: 0.5rem;
+  font-size: 0.9rem;
+}

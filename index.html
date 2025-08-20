@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>TV Show Episodes — Level 400</title>
+  <link href="style.css" rel="stylesheet" />
+</head>
+<body>
+  <div id="searchControls">
+    <select id="episodeDropdown" class="episode-dropdown"></select>
+    <input
+      type="text"
+      id="keywordInput"
+      class="keyword-input"
+      placeholder="Search by keyword or episode code..."
+    />
+    <span id="episodeCount"></span>
+  </div>
+  <div id="root"></div>
+  <template id="episodeTemplate">
+    <div class="episode-card">
+      <a href="#" target="_blank" rel="noopener noreferrer">
+        <div class="episode-header shadow-box">
+          <span class="episode-name-and-code"></span>
+        </div>
+        <img src="" alt="Episode image" />
+      </a>
+      <div class="episode-summary"></div>
+    </div>
+  </template>
+  <footer>
+    Data originally from <a href="https://tvmaze.com/" target="_blank" rel="noopener">TVMaze.com</a>
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html>
